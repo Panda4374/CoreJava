@@ -6,7 +6,7 @@ import java.time.format.DateTimeFormatterBuilder;
 
 public class DateAndTime {
     public static void main(String[] args) {
-        LocalDate localDate = LocalDate.now(); //current time
+        LocalDate localDate = LocalDate.now(); //current date
         LocalDate someDate = LocalDate.of(2022, 11, 19); //a specific date
         System.out.println(localDate);
 
